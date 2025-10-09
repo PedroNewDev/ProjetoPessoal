@@ -1,16 +1,49 @@
-# React + Vite
+Conversor de Desdobramento
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida como projeto pessoal no 4º período do curso de Engenharia de Software.
+O objetivo é auxiliar no cálculo de valores unitários de produtos a partir do valor total da caixa, tornando o processo de desdobramento rápido e prático.
 
-Currently, two official plugins are available:
+🧩 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite — ambiente moderno de build e desenvolvimento front-end
 
-## React Compiler
+React (JSX) — criação de componentes e reatividade da interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+HTML5 / CSS3 / JavaScript (ES6+) — base da estrutura e estilo do projeto
 
-## Expanding the ESLint configuration
+⚙️ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Entrada de quantidade de unidades e valor total da caixa
+
+Cálculo automático do valor por unidade
+
+Validação de campos com mensagens de erro
+
+Interface simples, moderna e responsiva
+
+🧮 Exemplo de uso
+
+Caixa com 12 unidades no valor total de R$ 500,00
+➜ Resultado: Cada unidade custa R$ 41,66
+
+🚀 Como Executar o Projeto
+# Clonar o repositório
+git clone https://github.com/SEUUSUARIO/conversor-universal.git
+
+# Entrar na pasta do projeto
+cd conversor-universal
+
+# Instalar dependências
+npm install
+
+# Iniciar o servidor local
+npm run dev
+
+
+Após isso, abra o navegador e acesse:
+👉 http://localhost:5173
+
+👨‍💻 Autor
+
+Pedro Albuquerque de Farias
+Projeto desenvolvido como prática de front-end utilizando React e Vite, com foco em aprendizado e aprimoramento técnico.
